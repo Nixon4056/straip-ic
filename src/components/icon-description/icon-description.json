@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_icon_description_icon_descriptions",
+  "info": {
+    "displayName": "iconDescription",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "visibleDescription2": {
+      "type": "string"
+    },
+    "visibleDescription": {
+      "type": "richtext"
+    },
+    "titleENG": {
+      "type": "string",
+      "required": true
+    },
+    "visibleDescription2ENG": {
+      "type": "string"
+    },
+    "visibleDescriptionENG": {
+      "type": "richtext"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_opening_hours_opening_hours",
+  "info": {
+    "displayName": "openingHours",
+    "icon": "clock",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "option1": {
+      "displayName": "option1",
+      "type": "component",
+      "repeatable": false,
+      "component": "option1.option1"
+    },
+    "option2": {
+      "type": "component",
+      "repeatable": true,
+      "component": "option1.option1"
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "kind": "collectionType",
+  "collectionName": "attractions",
+  "info": {
+    "singularName": "attraction",
+    "pluralName": "attractions",
+    "displayName": "Attraction",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "active": {
+      "type": "boolean",
+      "default": false
+    },
+    "openingHours": {
+      "displayName": "openingHoursB",
+      "type": "component",
+      "repeatable": false,
+      "component": "opening-hours-b.opening-hours-b"
+    },
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "visibleDescription": {
+      "type": "richtext"
+    },
+    "visibleDescriptionENG": {
+      "type": "richtext"
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "descriptionENG": {
+      "type": "richtext"
+    },
+    "img": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "titleENG": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

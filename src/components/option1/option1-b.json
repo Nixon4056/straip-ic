@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_option1_option1_bs",
+  "info": {
+    "displayName": "option1B",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "description": {
+      "type": "richtext",
+      "default": "default"
+    },
+    "descriptionENG": {
+      "type": "richtext",
+      "default": "default"
+    },
+    "hoursFrom": {
+      "type": "time",
+      "required": false
+    },
+    "hoursTo": {
+      "type": "time",
+      "required": false
+    }
+  }
+}
